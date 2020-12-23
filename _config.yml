@@ -201,7 +201,7 @@ defaults:
       article_header:
         type: overlay
   - scope:
-      path: /_web/
+      path: "_web"
     values:
       layout: article
       nav_key: web
