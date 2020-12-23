@@ -24,7 +24,7 @@ header:
       # @end locale config
     url: /archive.html
   - title: Web
-    url: /_web/1.1 start.md
+    url: /_web/start.html
   - title: Mobile
     url: /index.html
   - title: Network
