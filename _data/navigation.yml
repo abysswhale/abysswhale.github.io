@@ -33,6 +33,9 @@ header:
     url: /index.html
   - title: Virtualization
     url: /index.html
+  - title: Linux
+    url: /linux/시작하며
+    key: linux
 
 linux:
   - title: Start
