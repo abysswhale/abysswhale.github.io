@@ -27,10 +27,12 @@ linux:
         url: /linux/start
 
 web:
-  - title: 시작
+  - title: WEB
     children:
-      - title: 시작하기에 앞서
-        url: /web/start
+      - title: PenTesterLab I
+        url: /web/PenTesterLab_I
+      - title: PenTesterLab II
+        url: /web/PenTeserLab_II
 
 mobile:
   - title: 시작
