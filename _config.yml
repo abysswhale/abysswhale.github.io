@@ -166,6 +166,13 @@ markdown: kramdown
 highlighter: rouge
 permalink: date
 
+include:
+  - _linux
+  - _web
+  - _mobile
+  - _network
+  - _system
+  - _virtualization
 exclude:
   - CHANGELOG.md
   - HOW_TO_RELEASE.md
@@ -201,22 +208,72 @@ defaults:
       article_header:
         type: overlay
   - scope:
-      path: "_web"
-    values:
-      layout: article
-      nav_key: web
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: true
-      show_date: false
-  - scope:
       path: "_linux"
     values:
       layout: article
       nav_key: linux
       sidebar:
         nav: linux
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+  - scope:
+      path: "_web"
+    values:
+      layout: article
+      nav_key: web
+      sidebar:
+        nav: web
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+  - scope:
+      path: "_mobile"
+    values:
+      layout: article
+      nav_key: mobile
+      sidebar:
+        nav: mobile
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+  - scope:
+      path: "_network"
+    values:
+      layout: article
+      nav_key: netowrk
+      sidebar:
+        nav: network
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+  - scope:
+      path: "_system"
+    values:
+      layout: article
+      nav_key: system
+      sidebar:
+        nav: system
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+  - scope:
+      path: "_virtualization"
+    values:
+      layout: article
+      nav_key: virtualization
+      sidebar:
+        nav: virtualization
       license: true
       aside:
         toc: true

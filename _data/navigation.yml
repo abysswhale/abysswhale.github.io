@@ -1,53 +1,57 @@
 header:
-  - titles:
-      # @start locale config
-      en: &EN Archive
-      en-GB: *EN
-      en-US: *EN
-      en-CA: *EN
-      en-AU: *EN
-      zh-Hans: &ZH_HANS 归档
-      zh: *ZH_HANS
-      zh-CN: *ZH_HANS
-      zh-SG: *ZH_HANS
-      zh-Hant: &ZH_HANT 歸檔
-      zh-TW: *ZH_HANT
-      zh-HK: *ZH_HANT
-      ko: &KO Home
-      ko-KR: *KO
-      fr: &FR Archives
-      fr-BE: *FR
-      fr-CA: *FR
-      fr-CH: *FR
-      fr-FR: *FR
-      fr-LU: *FR
-      # @end locale config
-    url: /archive.html
   - title: About
-    url: "/_post/"
+    url: /about
 
   - title: Web
-    url: "/_web/"
-    key: web
+    url: /web/start
 
   - title: Mobile
-    url: "/_mobile/"
+    url: /mobile/start
 
   - title: Network
-    url: "/_network/"
+    url: /network/start
 
   - title: System
-    url: "/_System/"
+    url: /system/start
 
   - title: Virtualization
-    url: "/_Virtual/"
+    url: /virtualization/start
 
   - title: Linux
-    url: linux/2020-12-23-start-linux.md
-    key: linux
+    url: linux/start
 
 linux:
-  - title: Start
+  - title: 시작
     children:
-      - title: 시작하며
-        url: linux/2020-12-23-start-linux.md
+      - title: 시작하기에 앞서
+        url: /linux/start
+
+web:
+  - title: 시작
+    children:
+      - title: 시작하기에 앞서
+        url: /web/start
+
+mobile:
+  - title: 시작
+    children:
+      - title: 시작하기에 앞서
+        url: /mobile/start
+
+network:
+  - title: 시작
+    children:
+      - title: 시작하기에 앞서
+        url: /network/start
+
+system:
+  - title: 시작
+    children:
+      - title: 시작하기에 앞서
+        url: /system/start
+
+virtualization:
+  - title: 시작
+    children:
+      - title: 시작하기에 앞서
+        url: /virtualization/start
