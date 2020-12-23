@@ -3,7 +3,7 @@ layout: article
 title: About
 ---
 
-## About
+## 소개 페이지
 
 소개 페이지입니다.
 
