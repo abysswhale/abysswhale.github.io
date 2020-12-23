@@ -25,17 +25,23 @@ header:
     url: /archive.html
   - title: About
     url: "/_post/"
+
   - title: Web
-    url: /web/2020-12-23-start
+    url: "/_web/"
     key: web
+
   - title: Mobile
-    #url: /index.html
+    url: "/_mobile/"
+
   - title: Network
-    #url: /index.html
+    url: "/_network/"
+
   - title: System
-    #url: /index.html
+    url: "/_System/"
+    
   - title: Virtualization
-    #url: /index.html
+    url: "/_Virtual/"
+
   - title: Linux
     url: linux/2020-12-23-start-linux.md
     key: linux
