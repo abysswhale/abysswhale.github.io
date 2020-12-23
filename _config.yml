@@ -222,6 +222,11 @@ defaults:
         toc: true
       show_edit_on_github: true
       show_date: false
+  - scope:
+      path: "_pages"
+      type: pages
+    value:
+      layout: single
 
 ## => Plugins
 ##############################
