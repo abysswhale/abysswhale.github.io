@@ -35,11 +35,11 @@ header:
   - title: Virtualization
     #url: /index.html
   - title: Linux
-    url: linux/start-linux
+    url: linux/2020-12-23-start-linux.md
     key: linux
 
 linux:
   - title: Start
     children:
       - title: 시작하며
-        url: linux/start-linux
+        url: linux/2020-12-23-start-linux.md
