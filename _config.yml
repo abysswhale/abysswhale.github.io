@@ -55,8 +55,8 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root: # title link url, "/" (default)
-  home: /about # home layout url, "/" (default)
+  root: /about # title link url, "/" (default)
+  home:  # home layout url, "/" (default)
   archive: # "/archive.html" (default)
   rss: # "/feed.xml" (default)
 
@@ -219,7 +219,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
   - scope:
       path: "_web"
     values:
@@ -232,7 +232,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
   - scope:
       path: "_mobile"
     values:
@@ -245,7 +245,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
   - scope:
       path: "_network"
     values:
@@ -258,7 +258,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
   - scope:
       path: "_system"
     values:
@@ -271,7 +271,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
   - scope:
       path: "_virtualization"
     values:
@@ -284,7 +284,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: false
-      show_date: false
+      show_date: true
 
 
 ## => Plugins
