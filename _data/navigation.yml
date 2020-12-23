@@ -27,4 +27,4 @@ header:
       # @start locale config
       ko      : &KO       WEB
       # @end locale config
-    url: /web.html
+    url: /web/web.html
