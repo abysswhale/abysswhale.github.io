@@ -24,15 +24,16 @@ header:
       # @end locale config
     url: /archive.html
   - title: Web
-    url: /2020-12-23-start.md
+    url: /web/2020-12-23-start
+    key: web
   - title: Mobile
-    url: /index.html
+    #url: /index.html
   - title: Network
-    url: /index.html
+    #url: /index.html
   - title: System
-    url: /index.html
+    #url: /index.html
   - title: Virtualization
-    url: /index.html
+    #url: /index.html
   - title: Linux
     url: /linux/시작하며
     key: linux
