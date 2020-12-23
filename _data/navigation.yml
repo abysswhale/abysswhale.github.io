@@ -23,5 +23,14 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
-  - title:      Web
+  - title: Web
     url:        /_web/1.1-start
+  - title: Mobile
+    url:
+  - title: Network
+    url:
+  - title: System
+    url:
+  - title: Virtualization
+    url:
+    
