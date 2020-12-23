@@ -31,8 +31,6 @@ web:
     children:
       - title: PenTesterLab I
         url: /web/PenTesterLab_I
-      - title: PenTesterLab II
-        url: /web/PenTeserLab_II
 
 mobile:
   - title: 시작
