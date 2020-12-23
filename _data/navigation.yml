@@ -24,13 +24,12 @@ header:
       # @end locale config
     url: /archive.html
   - title: Web
-    url:        /_web/1.1-start
+    url: /index.html
   - title: Mobile
-    url:
+    url: /index.html
   - title: Network
-    url:
+    url: /index.html
   - title: System
-    url:
+    url: /index.html
   - title: Virtualization
-    url:
-    
+    url: /index.html
