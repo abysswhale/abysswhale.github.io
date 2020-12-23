@@ -24,7 +24,7 @@ header:
       # @end locale config
     url: /archive.html
   - title: About
-    url: /_post/2020-12-23-about.md
+    url: "/_post/"
   - title: Web
     url: /web/2020-12-23-start
     key: web
