@@ -35,11 +35,11 @@ header:
   - title: Virtualization
     #url: /index.html
   - title: Linux
-    url: /linux/시작하며
+    url: linux/start-linux
     key: linux
 
 linux:
   - title: Start
     children:
       - title: 시작하며
-        url: /linux/시작하며
+        url: linux/start-linux
