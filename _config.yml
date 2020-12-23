@@ -278,7 +278,7 @@ defaults:
       layout: article
       nav_key: virtualization
       sidebar:
-        nav: virtual
+        nav: virtualization
       sharing: false
       license: false
       aside:
