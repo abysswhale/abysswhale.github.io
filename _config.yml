@@ -217,6 +217,18 @@ defaults:
       mode: immersive
       article_header:
         type: overlay
+  - scope:
+      path: "_web"
+    values:
+      layout: article
+      nav_key: web
+      sidebar:
+        nav: web
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
 
 
 ## => Plugins
