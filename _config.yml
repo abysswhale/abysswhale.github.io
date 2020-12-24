@@ -15,7 +15,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url: "https://abysswhale.github.io"
+url: "https://www.rainforest.co.kr"
 baseurl:
 title: Rainforest
 description: > # this means to ignore newlines until "Language & timezone"
@@ -188,22 +188,16 @@ collections_dir: tech_collections
 collections:
   linux:
     output: true
-    permalink: /:name
   mobile:
     output: true
-    permalink: /:name
   network:
     output: true
-    permalink: /:name
   system:
     output: true
-    permalink: /:name
   virtualization:
     output: true
-    permalink: /:name
   web:
     output: true
-    permalink: /:name
 
 defaults:
   - scope:
