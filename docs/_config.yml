@@ -205,7 +205,6 @@ exclude:
   - /vendor
   - /_posts
   - /index.html
-  - /_web
 
 collections_dir: docs
 collections:
