@@ -43,7 +43,7 @@
     });
     // Char Code: 83  S, 191 /
     $(window).on('keyup', function(e) {
-      if (!modalVisible && !window.isFormElement(e.target || e.srcElement) && (e.which === 83 || e.which === 191)) {
+      if (!modalVisible && !window.isFormElement(e.target || e.srcElement) && (e.which === 191)) {
         modalVisible || searchModal.show();
       }
     });
