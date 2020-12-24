@@ -1,5 +1,62 @@
 ---
-layout: home
-# articles:
-#   excerpt_type: html
+layout: landing
+header:
+    theme: light
+title: Rainforest Blog
+permalink: /index.html
+
+article_header:
+  actions:
+    - text: About
+      type: outline-theme-dark
+      url: /About
+  height: 90vh
+  theme: dark
+  background_color: "#367a9a"
+  background_image:
+    gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
+    src: /assets/images/landing.jpg
+
+data:
+  sections:
+    - title: Categories
+      children:
+        - title: Web
+          excerpt: 웹 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /web/index
+        - title: Mobile
+          excerpt: 모바일 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /mobile/index
+        - title: Network
+          excerpt: 네트워크 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /network/index
+    - title:
+      children:
+        - title: System
+          excerpt: 시스템 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /system/index
+        - title: Virtualization
+          excerpt: 가상화 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /virtualization/index
+        - title: Linux
+          excerpt: 리눅스 기술 블로그
+          actions:
+            - text: More
+              type: outline-theme-light
+              url: /linux/index
 ---

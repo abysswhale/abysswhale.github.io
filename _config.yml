@@ -17,7 +17,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url: "https://abysswhale.github.io"
 baseurl:
-title: Blog
+title: Rainforest
 description: > # this means to ignore newlines until "Language & timezone"
   블로그
 
@@ -28,35 +28,35 @@ timezone: Asia/Seoul
 
 ## => Author and Social
 ##############################
-author:
-  type: # "person" (default), "organization"
-  name:
-  url: "https://abysswhale.github.io"
-  avatar: # path or url of avatar image (square)
-  bio:
-  email:
-  facebook: # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter: # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo: # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  telegram: # "user_name" the last part of your profile url, e.g. https://t.me/user_name
-  medium: # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu: # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
-  douban: # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin: # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github: # "user_name" the last part of your profile url, e.g. https://github.com/user_name
-  npm: # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+# author:
+#   type: "person" (default), "organization"
+#   name:
+#   url: 
+#   avatar: path or url of avatar image (square)
+#   bio:
+#   email:
+#   facebook: "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+#   twitter: "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+#   weibo: "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+#   googleplus: "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+#   telegram: "user_name" the last part of your profile url, e.g. https://t.me/user_name
+#   medium: "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+#   zhihu: "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+#   douban: "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+#   linkedin: "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+#   github: "user_name" the last part of your profile url, e.g. https://github.com/user_name
+#   npm: "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: chillghost/abysswhale.github.io
+repository: abysswhale/abysswhale.github.io
 repository_tree: master
 
 ## => Paths
 ##############################
 paths:
   root: /about # title link url, "/" (default)
-  home:  # home layout url, "/" (default)
+  home: # home layout url, "/" (default)
   archive: # "/archive.html" (default)
   rss: # "/feed.xml" (default)
 
@@ -105,11 +105,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: Rainforest # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -166,13 +166,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: date
 
-include:
-  - _linux
-  - _web
-  - _mobile
-  - _network
-  - _system
-  - _virtualization
 exclude:
   - CHANGELOG.md
   - HOW_TO_RELEASE.md
@@ -191,6 +184,27 @@ exclude:
   - /test
   - /vendor
 
+collections_dir: tech_collections
+collections:
+  linux:
+    output: true
+    permalink: /:name
+  mobile:
+    output: true
+    permalink: /:name
+  network:
+    output: true
+    permalink: /:name
+  system:
+    output: true
+    permalink: /:name
+  virtualization:
+    output: true
+    permalink: /:name
+  web:
+    output: true
+    permalink: /:name
+
 defaults:
   - scope:
       path: ""
@@ -201,6 +215,7 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_subscribe: false
       pageview: true
@@ -208,7 +223,7 @@ defaults:
       article_header:
         type: overlay
   - scope:
-      path: "_linux"
+      path: "tech_collections/_linux"
     values:
       layout: article
       nav_key: linux
@@ -218,10 +233,11 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
   - scope:
-      path: "_web"
+      path: "tech_collections/_web"
     values:
       layout: article
       nav_key: web
@@ -231,10 +247,11 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
   - scope:
-      path: "_mobile"
+      path: "tech_collections/_mobile"
     values:
       layout: article
       nav_key: mobile
@@ -244,10 +261,11 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
   - scope:
-      path: "_network"
+      path: "tech_collections/_network"
     values:
       layout: article
       nav_key: netowrk
@@ -257,10 +275,11 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
   - scope:
-      path: "_system"
+      path: "tech_collections/_system"
     values:
       layout: article
       nav_key: system
@@ -270,10 +289,11 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
   - scope:
-      path: "_virtualization"
+      path: "tech_collections/_virtualization"
     values:
       layout: article
       nav_key: virtualization
@@ -283,6 +303,7 @@ defaults:
       license: false
       aside:
         toc: true
+      key: anything
       show_edit_on_github: false
       show_date: true
 

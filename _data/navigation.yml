@@ -1,56 +1,86 @@
 header:
   - title: About
     url: /about
-
   - title: Web
-    url: /web/PenTesterLab_I
-
+    url: /web/index
+    key: web
   - title: Mobile
-    url: /mobile/start
-
+    url: /mobile/index
+    key: mobile
   - title: Network
-    url: /network/start
-
+    url: /network/index
+    key: network
   - title: System
-    url: /system/start
-
+    url: /system/index
+    key: system
   - title: Virtualization
-    url: /virtualization/start
-
+    url: /virtualization/index
+    key: virtualization
   - title: Linux
-    url: linux/start
+    url: linux/index
+    key: linux
+
 
 linux:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /linux/index
   - title: 시작
     children:
       - title: 시작하기에 앞서
         url: /linux/start
 
+
 web:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /web/index
   - title: WEB
     children:
       - title: PenTesterLab I
-        url: /web/PenTesterLab_I
-        
+        url: /web/pentesterlab_1
+
+
 mobile:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /mobile/index
   - title: 시작
     children:
       - title: 시작하기에 앞서
         url: /mobile/start
 
+
 network:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /network/index
   - title: 시작
     children:
       - title: 시작하기에 앞서
         url: /network/start
 
+
 system:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /system/index
   - title: 시작
     children:
       - title: 시작하기에 앞서
         url: /system/start
 
+
 virtualization:
+  - title: INDEX
+    children:
+      - title: Index
+        url: /virtualization/index
   - title: 시작
     children:
       - title: 시작하기에 앞서
