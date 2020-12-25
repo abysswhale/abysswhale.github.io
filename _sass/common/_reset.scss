@@ -31,7 +31,17 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+::-webkit-scrollbar{
+	width: 5px;
+  height: 3px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 3px;
+  background-color: #097249
+}
+::-webkit-scrollbar-track:horizontal{
+  background-color: #097249; // 가로 스크롤바 색상
+}
 /**
  * 1. Prevent adjustments of font size after orientation changes in iOS.
  **/
@@ -170,16 +180,4 @@ input {
 // mermaid
 .mermaidTooltip {
   display: none;
-}
-::-webkit-scrollbar{
-	width: 5px;
-  height: 3px;
-}
-::-webkit-scrollbar-thumb{
-  border-radius: 3px;
-  background-color: #097249
-}
-
-::-webkit-scrollbar-track:horizontal{
-  background-color: #097249; // 가로 스크롤바 색상
 }
