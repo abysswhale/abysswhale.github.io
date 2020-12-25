@@ -173,8 +173,13 @@ input {
 }
 ::-webkit-scrollbar{
 	width: 5px;
-	height: 3px;
+  height: 3px;
 }
 ::-webkit-scrollbar-thumb{
-	border-radius: 3px;
+  border-radius: 3px;
+  background-color: #097249
+}
+
+::-webkit-scrollbar-track:horizontal{
+  background-color: #097249; // 가로 스크롤바 색상
 }
