@@ -26,10 +26,10 @@ linux:
     children:
       - title: Index
         url: /linux/index
-  - title: 시작
+  - title: Windows Subsystem for Linux
     children:
-      - title: 시작하기에 앞서
-        url: /linux/start
+      - title: WSL 1 설치 및 WSL 2 업그레이드
+        url: /linux/settings
 
 
 web:
