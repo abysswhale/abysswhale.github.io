@@ -27,7 +27,7 @@ linux:
       - title: WSL 1 설치 및 WSL 2 업그레이드
         url: /linux/wsl2
       - title: Windows Terminal 커스터마이징    
-        url: /linux/Terminal
+        url: /linux/terminal
 
 
 
