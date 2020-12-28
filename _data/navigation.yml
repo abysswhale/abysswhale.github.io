@@ -17,7 +17,7 @@ header:
     url: /virtualization/index
     key: virtualization
   - title: Linux
-    url: linux/index
+    url: linux/wsl2
     key: linux
 
 
@@ -26,7 +26,6 @@ linux:
     children:
       - title: WSL 1 설치 및 WSL 2 업그레이드
         url: /linux/wsl2
-    children:
       - title: Windows Terminal 커스터마이징    
         url: /linux/Terminal
 
