@@ -22,14 +22,14 @@ header:
 
 
 linux:
-  - title: INDEX
-    children:
-      - title: Index
-        url: /linux/index
   - title: Windows Subsystem for Linux
     children:
       - title: WSL 1 설치 및 WSL 2 업그레이드
-        url: /linux/settings
+        url: /linux/wsl2
+    children:
+      - title: Windows Terminal 커스터마이징    
+        url: /linux/Terminal
+
 
 
 web:
