@@ -33,7 +33,7 @@ linux:
 web:
   - title: INDEX
     children:
-      - title: Index
+      - title: 학습 전
         url: /web/index
   - title: WEB
     children:
