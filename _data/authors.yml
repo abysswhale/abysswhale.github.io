@@ -1,2 +1,4 @@
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+  ---
+  name: GYG
+  title: 고영건
+  ---
