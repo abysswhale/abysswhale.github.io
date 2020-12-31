@@ -30,7 +30,6 @@ linux:
         url: /linux/terminal
 
 
-
 web:
   - title: INDEX
     children:
