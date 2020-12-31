@@ -35,7 +35,7 @@ web:
     children:
       - title: 학습 전
         url: /web/index
-  - title: WEB
+  - title: WEB HACKING
     children:
       - title: PenTesterLab I
         url: /web/pentesterlab_1
